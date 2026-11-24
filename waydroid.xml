@@ -2,11 +2,11 @@
 <manifest>
 
   <!-- Local manifest for WitAqua WayDroid builds, on top of WitAqua 17.0:
-       git clone -b 17.0-dev https://github.com/WitAqua-WayDroid/local_manifests .repo/local_manifests
+       git clone -b 17.0 https://github.com/WitAqua-WayDroid/local_manifests .repo/local_manifests
 
        Based on WayDroid-ATV. WitAqua-WayDroid holds the waydroid trees and the
        platform projects waydroid changes, as WitAqua 17.0 plus those changes. -->
-  <remote name="witaqua-waydroid" fetch="https://github.com/WitAqua-WayDroid/" revision="refs/heads/17.0-dev" />
+  <remote name="witaqua-waydroid" fetch="https://github.com/WitAqua-WayDroid/" revision="refs/heads/17.0" />
   <!-- WayDroid-ATV and the rest of the upstream waydroid stack -->
   <remote name="ghub" fetch="https://github.com/" />
 
